@@ -43,7 +43,7 @@ Partial Class MainForm
     Me.Label1.Location = New System.Drawing.Point(12, 15)
     Me.Label1.Name = "Label1"
     Me.Label1.Size = New System.Drawing.Size(47, 12)
-    Me.Label1.TabIndex = 1
+    Me.Label1.TabIndex = 0
     Me.Label1.Text = "保存先："
     '
     'FolderBrowserDialog
@@ -59,7 +59,7 @@ Partial Class MainForm
     Me.SavePathTextBox.Name = "SavePathTextBox"
     Me.SavePathTextBox.ReadOnly = True
     Me.SavePathTextBox.Size = New System.Drawing.Size(243, 19)
-    Me.SavePathTextBox.TabIndex = 2
+    Me.SavePathTextBox.TabIndex = 1
     '
     'Label2
     '
@@ -91,7 +91,7 @@ Partial Class MainForm
     Me.FilePathButton.Location = New System.Drawing.Point(324, 10)
     Me.FilePathButton.Name = "FilePathButton"
     Me.FilePathButton.Size = New System.Drawing.Size(27, 23)
-    Me.FilePathButton.TabIndex = 5
+    Me.FilePathButton.TabIndex = 2
     Me.FilePathButton.Text = "..."
     Me.FilePathButton.UseVisualStyleBackColor = True
     '
@@ -105,7 +105,7 @@ Partial Class MainForm
     Me.ResultListBox.Location = New System.Drawing.Point(13, 70)
     Me.ResultListBox.Name = "ResultListBox"
     Me.ResultListBox.Size = New System.Drawing.Size(351, 112)
-    Me.ResultListBox.TabIndex = 6
+    Me.ResultListBox.TabIndex = 5
     '
     'CopyBackgroundWorker
     '
@@ -116,7 +116,7 @@ Partial Class MainForm
     Me.StopButton.Location = New System.Drawing.Point(12, 188)
     Me.StopButton.Name = "StopButton"
     Me.StopButton.Size = New System.Drawing.Size(75, 23)
-    Me.StopButton.TabIndex = 7
+    Me.StopButton.TabIndex = 6
     Me.StopButton.Text = "中止"
     Me.StopButton.UseVisualStyleBackColor = True
     '
@@ -126,7 +126,7 @@ Partial Class MainForm
     Me.CloseButton.Location = New System.Drawing.Point(289, 188)
     Me.CloseButton.Name = "CloseButton"
     Me.CloseButton.Size = New System.Drawing.Size(75, 23)
-    Me.CloseButton.TabIndex = 8
+    Me.CloseButton.TabIndex = 7
     Me.CloseButton.Text = "閉じる"
     Me.CloseButton.UseVisualStyleBackColor = True
     '
